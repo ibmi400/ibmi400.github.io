@@ -1,5 +1,5 @@
-const password = prompt("Bitte Passwort eingeben:");
-const correctPassword = "piper123";
+const password = prompt("Enter password:");
+const correctPassword = "april18";
 const image = document.getElementById("secretImage");
 const errorMsg = document.getElementById("errorMsg");
 

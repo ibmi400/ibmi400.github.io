@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+a.hidden-link {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a.hidden-link:hover {
+    color: white;
+}
+
+#errorMsg {
+    display: none;
+    color: red;
+    margin-top: 20px;
+}
